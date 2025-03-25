@@ -6,7 +6,7 @@ int majorityElement(vector<int>& nums){
     return nums[nums.size()/2];
 }
 int main(){
-    vector<int>nums={2,2,1,1,1,2,2};
+    vector<int>nums={2,2,1,1,3,2};
     int result=majorityElement(nums);
     cout<<"Majority Element: " <<result<<endl;
     return 0;
